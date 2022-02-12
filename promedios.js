@@ -53,7 +53,14 @@ llamar_promedio();
 
 
 
+
+
+
 for (let i = 0; i < cantidad; i++){
-    document.write(`<span> El alumno ${alumnos[i][0]} tiene como promedio ${promedios[i].toFixed(2)} </span> <br> <br> <br> <br>`);
+    if (promedios[i]< 11){
+        document.write(`<span> El alumno ${alumnos[i][0]} tiene como promedio ${promedios[i].toFixed(2)} <b> ---> ESTÁ JALADO </b> </span> <br> <br> <br> <br>`);
+    } else {
+        document.write(`<span> El alumno ${alumnos[i][0]} tiene como promedio ${promedios[i].toFixed(2)} </span> <br> <br> <br> <br>`);
+    }  
 }
 
