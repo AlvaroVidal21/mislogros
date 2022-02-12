@@ -1,4 +1,6 @@
 
+alert("TIENES QUE INGRESAR 3 NOTAS");
+
 let alumnos = []; // [["Sherlock"], ["Mycroft"]] --> [0][0], [1][0]
 
 let promedios = [];
